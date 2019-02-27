@@ -2,7 +2,7 @@
 
 ----
 
-![](pic/1.png)
+the picture below is my server bought from Alibaba Cloud![](pic/1.png)
 
 ![](pic/2.png)
 
