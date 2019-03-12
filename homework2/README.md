@@ -12,7 +12,7 @@
 
 ![](pic/2.png)
 
-- here is the result, which means the refusal of Coremail Anti-spam GT
+- here is the result
 
 ![](pic/3.png)
 
