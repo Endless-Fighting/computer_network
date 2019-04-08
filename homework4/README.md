@@ -2,9 +2,9 @@
 
 a. 
 
-destination		interface
-
-H3				3
+| destination | interface |
+| ----------- | --------- |
+| H3          | 3         |
 
 b. no, since the only difference between these two kinds of traffic is the source ip address. while a forwarding table don't care about the source address.
 
@@ -34,16 +34,13 @@ c. 0
 
 a.
 
-prefix				interface
-
-11100000 00			0
-
-11100000 01000000	   1
-
-1110000				2
-
-11100001 1			   3
-other				      3
+| prefix | interface |
+| ---------- | ---------- |
+| 11100000 00	| 0 |
+|11100000 01000000	|   1|
+|1110000		|		2|
+|11100001 1		|	   3|
+|other		|		      3|
 
 b.
 
@@ -57,12 +54,9 @@ b.
 
 ### 6
 
-destination				interface	count
-
-00000000 ~ 00111111		0			64
-
-01000000 ~ 01011111		1			32
-
-01100000 ~ 10111111		2			96
-
-11000000 ~ 11111111		3			64
+|destination|interface|count|
+|------------|----------|-------------|
+|00000000 ~ 00111111|		0	|		64|
+|01000000 ~ 01011111|		1	|		32|
+|01100000 ~ 10111111|		2	|		96|
+|11000000 ~ 11111111|		3	|		64|
